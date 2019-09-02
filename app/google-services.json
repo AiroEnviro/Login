@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "187266634908",
+    "firebase_url": "https://airo-enviro.firebaseio.com",
+    "project_id": "airo-enviro",
+    "storage_bucket": "airo-enviro.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:187266634908:android:36c07266c1374f6e",
+        "android_client_info": {
+          "package_name": "com.example.shoaibbajwa.login"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "187266634908-6n5abqdhuoitjo7rih0kn1j9prv6saec.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shoaibbajwa.login",
+            "certificate_hash": "bd0c92ec5f0bcab3a6415ee0bb00c31cb1580a70"
+          }
+        },
+        {
+          "client_id": "187266634908-foio472lv50ldm74c7fn2vltcr2ked47.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGopll4dULSVbMV6GkonJvFUwpW5cz50U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "187266634908-foio472lv50ldm74c7fn2vltcr2ked47.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

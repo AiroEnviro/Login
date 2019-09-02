@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Suggestions"
+    tools:showIn="@layout/activity_suggestions">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" "/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""/>
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/suggest1"/>
+        <RelativeLayout
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="How can we reduce room pollution?"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Here are some simple steps you can take:
+Avoid smoking indoors (quitting smoking is the best answer for overall health)
+Use craft supplies in well-ventilated areas.
+Make sure your gas stove is well-ventilated.
+Minimize clutter.
+Remove carpeting if possible.
+Use a dehumidifier and/or air conditioner to reduce moisture."
+                android:textColor="#000000"
+                />
+
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="324dp"
+            android:src="@drawable/reduce" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Decrition:"
+            android:textStyle="bold"/>
+
+
+        <RelativeLayout
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Plant Trees"
+                android:layout_marginTop="30dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Water Usage"
+                android:layout_marginTop="50dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Use Less Heat "
+                android:layout_marginTop="70dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="How do you get rid of air irritants?"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:layout_marginTop="110dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Use an exhaust fan or crack open a window when cooking, running the dishwasher, or bathing.
+Don't overwater houseplants.
+Vent the clothes dryer to the outside.
+Fix leaky plumbing to prevent moisture-loving mold.
+Empty drip pans in your window air conditioner and dehumidifier."
+                android:textColor="#000000"
+                android:layout_marginTop="130dp"
+                />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>
